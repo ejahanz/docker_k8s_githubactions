@@ -20,24 +20,24 @@ A simple full-stack app to learn containers, orchestration, and CI/CD.
 
 🗂️ Directory Structure
 
-docker-k8s-actions-template/
-├── backend/
-│   ├── app.py
-│   └── Dockerfile
-├── frontend/
-│   ├── index.html
-│   └── Dockerfile
-├── k8s/
-│   ├── backend-deployment.yaml
-│   ├── frontend-deployment.yaml
-│   ├── service-backend.yaml
-│   ├── service-frontend.yaml
-│   └── ingress.yaml (optional)
-├── .github/
-│   └── workflows/
-│       └── ci-cd.yaml
-├── .dockerignore
-├── .gitignore
+docker-k8s-actions-template/<br>
+├── backend/<br>
+│   ├── app.py<br>
+│   └── Dockerfile<br>
+├── frontend/<br>
+│   ├── index.html<br>
+│   └── Dockerfile<br>
+├── k8s/<br>
+│   ├── backend-deployment.yaml<br>
+│   ├── frontend-deployment.yaml<br>
+│   ├── service-backend.yaml<br>
+│   ├── service-frontend.yaml<br>
+│   └── ingress.yaml (optional)<br>
+├── .github/<br>
+│   └── workflows/<br>
+│       └── ci-cd.yaml<br>
+├── .dockerignore<br>
+├── .gitignore<br>
 └── README.md
 
 
